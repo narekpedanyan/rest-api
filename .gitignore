@@ -1,0 +1,9 @@
+.expo
+.idea
+node_modules
+/Content
+
+yarn.lock
+yarn-error.log
+package-lock.json
+debug.log
