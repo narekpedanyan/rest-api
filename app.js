@@ -12,8 +12,8 @@ mongoose.connect(
     'mongodb+srv://narekpedanyan:' +
     process.env.MONGO_ATLAS_PW +
     '@cluster0-ewno9.mongodb.net/test?retryWrites=true'
-)
-;
+);
+mongoose.Promise = global.Promise;
 
 app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({extended: false}));
