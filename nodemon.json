@@ -1,5 +1,6 @@
 {
   "env": {
-    "MONGO_ATLAS_PW": "narekpedanyan..77"
+    "MONGO_ATLAS_PW": "narekpedanyan..77",
+    "JWT_KEY": "secret"
   }
 }
